@@ -64,7 +64,7 @@ dependencies {
         implementation("org.jsoup:jsoup:1.23.2") { because("Fix GHSA-65r4-943x-97jj and GHSA-pmhh-3w7g-xqp8 in extraction dependencies") }
     }
     if (firebaseAnalyticsEnabled) {
-        implementation(platform("com.google.firebase:firebase-bom:34.4.0"))
+        implementation(platform("com.google.firebase:firebase-bom:35.2.0"))
         implementation("com.google.firebase:firebase-analytics")
         implementation("com.google.firebase:firebase-crashlytics")
     }
